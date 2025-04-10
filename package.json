@@ -2,6 +2,7 @@
   "name": "rolldown-resolve-issue-repo1",
   "private": true,
   "scripts": {
+    "start": "pnpm run repro:rollup && pnpm run repro:rolldown",
     "simple:rollup": "pnpm run --filter pre-bundle-simple rollup",
     "simple:rolldown": "pnpm run --filter pre-bundle-simple rolldown",
     "repro:rollup": "pnpm run --filter pre-bundle-symbolic rollup",
